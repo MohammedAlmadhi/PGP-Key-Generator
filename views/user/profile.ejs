@@ -1,0 +1,59 @@
+<%- include('../partials/header', { title: 'Profile' }) %>
+<%- include('../partials/navbar', { activePage: 'profile' }) %>
+
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Welcome, <%= user.username %></h1>
+  <hr>
+
+  <%- include('../partials/flashMessages') -%>   
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Your PGP Keys</h3>
+      <% if (keys && keys.length > 0) { %>
+        <div class="row">
+          <% keys.forEach(key => { %>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h5 class="card-title"><%= key.name %></h5>
+                  <p class="card-text"><strong>Email:</strong> <%= key.email %></p>
+                  <p class="card-text"><strong>Algorithm:</strong> <%= key.algorithm %></p>
+                  <p class="card-text"><strong>Key Size:</strong> <%= key.keySize %></p>
+                  <p class="card-text"><strong>Expires:</strong> <%= new Date(key.expires).toLocaleDateString() %></p>
+                  <a class="btn btn-primary" onclick="downloadKey('<%= keys.publicKey %>', 'public')">Export Public Key</a>
+                  <a class="btn btn-secondary" onclick="downloadKey('<%= keys.privateKey %>', 'private')">Export Private Key</a>
+                  <a href="/edit/<%= key._id %>" class="btn btn-warning">Edit Key</a>
+                  <form action="/delete/<%= key._id %>" method="POST" style="display:inline;" onsubmit="return confirmDelete()">
+                    <button type="submit" class="btn btn-danger">Delete Key</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      <% } else { %>
+        <p>You have no keys generated yet.</p>
+      <% } %>
+    </div>
+  </div>
+</div>
+
+<script>
+  function downloadKey(key, type) {
+    const blob = new Blob([key], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `pgp-${type}-key.asc`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  function confirmDelete() {
+    return confirm('Are you sure you want to delete the key?');
+  }
+</script>
+
+<%- include('../partials/footer') %>

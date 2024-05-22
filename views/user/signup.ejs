@@ -1,0 +1,34 @@
+<%- include('../partials/header', { title: 'Sign Up' }) %>
+<%- include('../partials/navbar', { activePage: 'login' }) %>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="login-form">
+        <h3 class="text-center">Sign Up</h3>
+        <hr>
+
+        <%- include('../partials/flashMessages') %>   
+          
+        <form action="/user/signup" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" name="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+            <p class="text-center mt-3">Already have an account? <a href="/user/login">Login</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('../partials/footer') %>

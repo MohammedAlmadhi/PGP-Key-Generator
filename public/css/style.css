@@ -1,0 +1,132 @@
+/* General body styles */
+body {
+    background-image: url("/images/DALL·\,\ a.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    border-bottom: 2px solid #1B263B;
+  }
+  
+  .bg-primary{
+      background-color: #1B263B!important;
+  }
+  
+  /* Form styling */
+  input[type="text"], input[type="email"], select, textarea {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding: .375rem .75rem;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .25);
+    border-color: #66afe9;
+  }
+  
+  /* Buttons styling */
+  button {
+    cursor: pointer;
+  }
+  
+  #generateKeyBtn {
+    background-color: #E0E1DD;
+    color: #000000;
+    border-color: #E0E1DD;
+  }
+  
+  #generateKeyBtn:hover {
+    background-color: #1B263B;
+    border-color: #1B263B;
+    color: #fff;
+  }
+  
+  /* Key display areas */
+  #publicKey, #privateKey {
+    min-height: 150px;
+    font-family: 'Courier New', monospace;
+    background-color: #e9ecef;
+    border: none;
+  }
+  
+  /* Download buttons */
+  #downloadPubKey, #downloadPrivKey {
+    background-color: #1B263B;
+    border-color: #1B263B;
+    color: #fff;
+  }
+  
+  #downloadPubKey:hover, #downloadPrivKey:hover {
+    background-color: #28395a;
+    border-color: #28395a;
+  }
+  
+  /* Utilities */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-3, .mb-4, .mt-5 {
+    margin-bottom: 1rem;
+  }
+
+  #generate-cont{
+    background-color: #778DA9;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }  
+  
+  .navbar .navbar-nav .nav-link {
+      margin-right: 15px; 
+    }
+    
+  
+    
+    .navbar .navbar-nav .nav-item.active a {
+      border-bottom: 3px solid #fff; 
+    }
+    
+  
+    /* Login */
+  
+    .login-form {
+      background-color: #ffffff;
+      padding: 25px;
+      margin-top: 250px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h3 {
+      text-align: center;
+      margin-bottom: 25px;
+  }
+  
+  .login-form .form-group {
+      margin-bottom: 15px;
+  }
+  
+  .login-form .btn-primary {
+      background-color: #1B263B;
+      border-color: #1B263B;
+  }
+  
+  .login-form .btn-primary:hover {
+      background-color: #0a1f33;
+      border-color: #091a2a;
+  }
+  
+  .login-form p {
+      margin-top: 10px;
+  }
+  
+  .login-form a {
+      color: #1B263B;
+      text-decoration: none;
+  }
+  
