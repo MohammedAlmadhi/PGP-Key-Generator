@@ -25,3 +25,7 @@ $ npm run server
 **EJS:** Templating engine for rendering HTML pages.<br />
 **OpenPGP.js:** JavaScript library for generating and managing PGP keys.<br />
 **Bootstrap:** CSS framework for responsive and modern web design.<br />
+
+## Project goals
+
+Allow users to generate secure PGP key pairs. Provide functionalities for users to view, edit, and delete their keys. Enable users to export their public and private keys for use in other applications.
