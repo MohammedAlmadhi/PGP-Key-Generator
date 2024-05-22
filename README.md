@@ -1,6 +1,8 @@
 # PGP-Key-Generator
 The PGP Key Generator website allows users to generate, edit, and manage PGP keys. Users can generate new PGP key pairs, edit their existing keys, and download their public and private keys.
 
+## Flowchart
+![image](https://github.com/MohammedYousef1/PGP-Key-Generator/assets/83059089/b7f995d8-e558-44a0-b52c-1b435a02a48a)
 
 ## Setup
 
