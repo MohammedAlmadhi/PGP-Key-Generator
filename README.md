@@ -8,5 +8,5 @@ Once you have cloned or downloaded this repository you need to make sure you hav
 run the following command to bring all npm packages required for this project
 
 ```
-$ npm install --save @github/clipboard-copy-element
+$ npm install
 ```
