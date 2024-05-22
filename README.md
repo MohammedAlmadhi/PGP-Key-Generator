@@ -22,6 +22,7 @@ $ npm run server
 - **Express.js:** Web application framework for Node.js.
 - **MongoDB:** NoSQL database for storing user and key information.
 - **Mongoose:** ODM (Object Data Modeling) library for MongoDB and Node.js.
+- **Passport** Authentication middleware for Node.js.
 - **EJS:** Templating engine for rendering HTML pages.
 - **OpenPGP.js:** JavaScript library for generating and managing PGP keys.
 - **Bootstrap:** CSS framework for responsive and modern web design.
@@ -36,13 +37,28 @@ $ npm run server
 ### Home Page
 ![image](https://github.com/MohammedYousef1/PGP-Key-Generator/assets/83059089/a5d26a30-6075-488e-81fd-c74ae535d369)
 
-<br />
-
 ### Signup Page
 ![image](https://github.com/MohammedYousef1/PGP-Key-Generator/assets/83059089/6c57199f-7ae8-4ce7-9959-d8a1ba16e77c)
-<br />
 
 ### Profile Page
 ![image](https://github.com/MohammedYousef1/PGP-Key-Generator/assets/83059089/82b1c3d7-7ec3-45d9-8d5f-f1e9e63a14ff)
 
+### Edit Key Page
+![image](https://github.com/MohammedYousef1/PGP-Key-Generator/assets/83059089/c8f49cf0-ff06-4b4a-815a-cd73d49df236)
 
+
+## Future Work
+
+- **Key Sharing:** Allow users to share their public keys with others securely.
+- **Enhanced Security:** Implement additional security measures such as two-factor authentication.
+
+## Resources
+
+https://www.youtube.com/playlist?list=PLXgJ7cArk9uR_xxd3iZIwTg0mKUDYsxoi
+https://www.npmjs.com/package/passport
+https://docs.openpgpjs.org/#generate-new-key-pair
+
+## Team Members
+1. Mohammed Almadhi
+2. Abdulaziz Alboraide
+3. Ziyad Alghamdi
