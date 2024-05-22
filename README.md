@@ -28,4 +28,6 @@ $ npm run server
 
 ## Project goals
 
-Allow users to generate secure PGP key pairs. Provide functionalities for users to view, edit, and delete their keys. Enable users to export their public and private keys for use in other applications.
+- Allow users to generate secure PGP key pairs.
+- Provide functionalities for users to view, edit, and delete their keys.
+- Enable users to export their public and private keys for use in other applications.
