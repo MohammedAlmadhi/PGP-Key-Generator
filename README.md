@@ -54,8 +54,8 @@ $ npm run server
 
 ## Resources
 
-https://www.youtube.com/playlist?list=PLXgJ7cArk9uR_xxd3iZIwTg0mKUDYsxoi
-https://www.npmjs.com/package/passport
+https://www.youtube.com/playlist?list=PLXgJ7cArk9uR_xxd3iZIwTg0mKUDYsxoi<br/>
+https://www.npmjs.com/package/passport<br/>
 https://docs.openpgpjs.org/#generate-new-key-pair
 
 ## Team Members
