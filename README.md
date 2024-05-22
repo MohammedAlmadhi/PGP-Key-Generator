@@ -63,5 +63,5 @@ https://docs.openpgpjs.org/#generate-new-key-pair
 
 ## Team Members
 1. Mohammed Almadhi
-2. Abdulaziz Alboraide
+2. Abdulaziz Alburidi
 3. Ziyad Alghamdi
