@@ -18,13 +18,13 @@ $ npm run server
 
 ## Technologies used
 
-**Node.js:** Backend runtime environment.<br />
-**Express.js:** Web application framework for Node.js.<br />
-**MongoDB:** NoSQL database for storing user and key information.<br />
-**Mongoose:** ODM (Object Data Modeling) library for MongoDB and Node.js.<br />
-**EJS:** Templating engine for rendering HTML pages.<br />
-**OpenPGP.js:** JavaScript library for generating and managing PGP keys.<br />
-**Bootstrap:** CSS framework for responsive and modern web design.<br />
+- **Node.js:** Backend runtime environment.
+- **Express.js:** Web application framework for Node.js.
+- **MongoDB:** NoSQL database for storing user and key information.
+- **Mongoose:** ODM (Object Data Modeling) library for MongoDB and Node.js.
+- **EJS:** Templating engine for rendering HTML pages.
+- **OpenPGP.js:** JavaScript library for generating and managing PGP keys.
+- **Bootstrap:** CSS framework for responsive and modern web design.
 
 ## Project goals
 
