@@ -23,7 +23,7 @@ $ npm run server
 
 - **Node.js:** Backend runtime environment.
 - **Express.js:** Web application framework for Node.js.
-- **MongoDB:** NoSQL database for storing user and key information.
+- **MongoDB:** Database for storing user and key information.
 - **Mongoose:** ODM (Object Data Modeling) library for MongoDB and Node.js.
 - **Passport** Authentication middleware for Node.js.
 - **EJS:** Templating engine for rendering HTML pages.
